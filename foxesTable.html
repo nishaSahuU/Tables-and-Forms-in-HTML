@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- This webpage is for the class: Tables and Forms in HTML -->
+  <title>
+    Fox Information Depot
+  </title>
+</head>
+
+<body>
+
+  <table width="90%" border=5px bgcolor="#caeddb">
+    <tr>
+      <td width="35%" rowspan="4">
+        <h1>Everything About Foxes</h1>
+        <h2>by Nisha Sahu</h2>
+
+        <h2>Join our Mailing List!</h2>
+        <form action="someprogram.hp">
+
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="lname">Last name: </label>
+          <input type="text" id="lname" name="lname"><br><br>
+
+          <label for="email">Email address: </label>
+          <input type="text" id="email" name="email" value="xxx@xxx.com"><br><br>
+          How often should we send you email?<br>
+          <input type="radio" id="daily" name="howoften" value="daily">
+
+          <label for="daily">Daily</label>
+          <br>
+          <input type="radio" id="weekly" name="howoften" value="weekly">
+          <label for="weekly">Weekly</label>
+          <br>
+          <input type="radio" id="monthly" name="howoften" value="monthly">
+          <label for="monthly">Monthly</label>
+          <br>
+          <label for="newslatter">Would you like the bi-monthly newsletter?</label>
+          <input type="checkbox" id="newsletter" name="newsletter"><br>
+          <input type="submit" value="Submit"><br>
+        </form>
+      </td>
+
+      <th>Photo</th>
+      <th>Description</th>
+      <th>Link to Information</th>
+    </tr>
+    <tr>
+      <td width="25%">
+        <img src="img/redfox.jpg" width="100%" alt="Photo of a red fox">
+      </td>
+      <td width="50%">The red fox, which is a cousin to
+        the dog, is common across Minnesota. A
+        careful eye may even spot one in the
+        Twin Cities and surrounding suburbs.
+      </td>
+      <td>
+        <a href="https://www.nationalgeographic.com/animals/mammals/r/red-fox/">
+          National Geographic website</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/blackfox.jpg" width="100%" alt="Photo of a black fox">
+      </td>
+      <td width="50%">The black fox is a genetic variation
+        of the red fox and is very rare.
+      </td>
+      <td>
+        <a href="https://www.safariltd.com/safaripedia/black-fox">
+          Safari LTD</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/grayfox.jpg" width="100%" alt="Photo of a gray fox">
+      </td>
+      <td width="50%">The gray fox is a salt and pepper
+        gray color with a long bushy tail
+        with a black stripe on top.
+      </td>
+      <td>
+        <a href="http://www.wildlifesciencecenter.org/gray-fox">Wildlife Science Center</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4>
+        This web page was designed and constructed by Nisha Sahu</td>
+    </tr>
+  </table>
